@@ -1,9 +1,22 @@
 # MCA Software Engineering Bootcamp
 
-**Name:** Priyanshi Aggarwal
+## 👩‍💻 About Me
 
-## Goal
-Become a Software Engineer & Full Stack Web Developer before MCA graduation.
+- Name: Priyanshi Aggarwal
+- Course: MCA (3rd Semester)
+- Target Role: Software Engineer / Full Stack Developer
 
-## Started
-August 2026
+## Tech Stack
+
+- Git & GitHub ✅
+- HTML
+- CSS
+- JavaScript
+- React
+- Node.js
+- SQL
+
+## Progress
+
+- [x] Day 1 — Git & GitHub
+- [ ] Day 2 — HTM
