@@ -5,13 +5,13 @@
     <!-- Character Encoding -->
     <meta charset="UTF-8">
 
-    <!-- Makes website responsive on mobile -->
+    <!-- Makes website responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Browser Tab Title -->
     <title>Priyanshi Portfolio</title>
 
-    <!-- Connect CSS File -->
+    <!-- Connect CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,16 +20,15 @@
     <!-- ================= HEADER ================= -->
     <header>
 
-        <!-- container = same width as rest of website -->
-        <!-- hero = flexbox layout -->
+        <!-- Hero + Container -->
         <div class="container hero">
 
-            <!-- Profile Initials -->
+            <!-- Profile Circle -->
             <div class="profile-circle">
                 PA
             </div>
 
-            <!-- Name & Profession -->
+            <!-- Hero Text -->
             <div class="hero-text">
                 <h1>Priyanshi Aggarwal</h1>
                 <p>MCA Student | Future Software Engineer</p>
@@ -41,17 +40,22 @@
 
     <!-- ================= NAVIGATION ================= -->
     <nav>
+
         <div class="container nav-links">
+
             <a href="#about">About</a>
             <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
+
         </div>
+
     </nav>
 
     <!-- ================= MAIN CONTENT ================= -->
     <main class="container">
 
-        <!-- About Section -->
+        <!-- ========= ABOUT ========= -->
         <section id="about">
 
             <h2>About Me</h2>
@@ -64,7 +68,7 @@
 
         </section>
 
-        <!-- Skills Section -->
+        <!-- ========= SKILLS ========= -->
         <section id="skills">
 
             <h2>Skills</h2>
@@ -78,7 +82,69 @@
 
         </section>
 
-        <!-- Contact Section -->
+        <!-- ========= PROJECTS ========= -->
+        <section id="projects">
+
+            <h2>Projects</h2>
+
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card">
+
+                    <img src="https://placehold.co/600x400"
+                        alt="Personal Portfolio Project">
+
+                    <h3>Personal Portfolio</h3>
+
+                    <p>
+                        Responsive portfolio website built using HTML,
+                        CSS, Flexbox and CSS Grid.
+                    </p>
+
+                    <button type="button">View Project</button>
+
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+
+                    <img src="https://placehold.co/600x400"
+                        alt="College Event Landing Page">
+
+                    <h3>College Event Landing Page</h3>
+
+                    <p>
+                        Modern landing page with responsive layout
+                        and attractive UI.
+                    </p>
+
+                    <button type="button">View Project</button>
+
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+
+                    <img src="https://placehold.co/600x400"
+                        alt="Student Login UI">
+
+                    <h3>Student Login UI</h3>
+
+                    <p>
+                        Responsive student login interface designed
+                        using HTML and CSS.
+                    </p>
+
+                    <button type="button">View Project</button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ========= CONTACT ========= -->
         <section id="contact">
 
             <h2>Contact Me</h2>
@@ -86,14 +152,34 @@
             <form>
 
                 <label for="name">Full Name</label><br>
-                <input type="text" id="name" placeholder="Enter Your Name"><br><br>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter Your Name"
+                    required>
+
+                <br><br>
 
                 <label for="email">Email</label><br>
-                <input type="email" id="email" placeholder="Enter Your Email"><br><br>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter Your Email"
+                    required>
+
+                <br><br>
 
                 <label for="message">Message</label><br>
 
-                <textarea id="message" rows="6" placeholder="Write your message"></textarea><br><br>
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Write your message"
+                    required></textarea>
+
+                <br><br>
 
                 <button type="submit">
                     Send Message
